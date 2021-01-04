@@ -7,4 +7,6 @@
 > A blog that documents the learning process.
 
 
-[GitHub](https://github.com/Malaaaa)
+- [GitHub](https://github.com/Malaaaa)
+
+- [Get Started](/README.md)
