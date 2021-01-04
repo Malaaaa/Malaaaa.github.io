@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Malaaa Blog</title>
+  <link rel="shortcut icon" href="\_media/pig.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" title="vue" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css" title="dark" disabled />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css" title="buble" disabled />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/pure.css" title="pure" disabled />
+  <style>
+    nav.app-nav li ul {
+      min-width: 100px;
+    }
+
+    #carbonads {
+      box-shadow: none !important;
+      width: auto !important;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <nav>
+    <a href="#/">Content</a>
+  </nav> -->
+  <div id="app">Loading...</div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: '',
+      auto2top: true,
+      coverpage: true,
+      executeScript: true,
+      loadSidebar: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+      logo: '\_media/pig.svg',
+      repo: 'https://github.com/malaaaa/',
+      name: 'Just a blog',
+      themeColor: '#3F51B5',
+      autoHeader: true,
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+
+      formatUpdated: function (time) {
+        // ...
+
+        return time;
+      },
+      notFoundPage: true,
+      topMargin: 90, // default: 0
+      search: 'auto', // 默认值
+      search: [
+        '/',
+      ],
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: [], // or 'auto'
+        placeholder: 'Type to search',
+
+
+
+        noData: 'No Results!',
+
+        // 搜索标题的最大层级, 1 - 6
+        depth: 2,
+
+        hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+
+        // 避免搜索索引冲突
+        // 同一域下的多个网站之间
+        namespace: 'website-1',
+        disqus: 'shortname',
+        count: {
+          countable: true,
+          fontsize: '0.9em',
+          color: 'rgb(90,90,90)',
+          language: 'chinese'
+        }
+
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  </script>
+
+</body>
+
+</html>
