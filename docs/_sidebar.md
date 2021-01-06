@@ -1,5 +1,3 @@
-Studeylogs
-
 - [docsify](docsify.md)
 - [Flutter1](Flutter.md)
 - [隔鞋搔痒](soup.md)
