@@ -408,3 +408,27 @@ I/flutter (17666): hello 1
 I/flutter (17666): Error
 I/flutter (17666): hello 3
 ```
+### 继承(extends)
+
+dart中的继承规则：
+
+- 子类使用extends关键词来继承父类
+- 子类会继承父类里面可见的属性和方法 但是不会继承构造函数
+- 子类能复写父类的方法 getter和setter 
+- 子类重写超类的方法，要用@override 
+- 子类调用超类的方法，要用super
+- 子类可以继承父类的非私有变量 
+
+### 混合 mixins (with)
+mixins的中文意思是混入，就是在类中混入其他功能。在Dart中可以使用mixins实现类似多继承的功能因为mixins使用的条件，随着Dart版本一直在变，这里说的是Dart2.x中使用mixins的条件：
+- (1) 作为mixins的类只能继承自Object，不能继承其他类
+- (2) 作为mixins的类不能有构造函数
+- (3) 一个类可以mixins多个mixins类
+- (4) mixins绝不是继承，也不是接口，而是一种全新的特性 看具体代码：
+
+### 接口实现(implements)
+  Flutter是没有interface的，但是Flutter中的每个类都是一个隐式的接口，这个接口包含类里的所有成员变量，以及定义的方法。如果有一个类 A,你想让类B拥有A的API，但又不想拥有A里的实现，那么你就应该把A当做接口，类B implements 类A.
+  所以在Flutter中:class 就是 interface
+
+- 当class被当做interface用时，class中的方法就是接口的方法，需要在子类里重新实现，在子类实现的时候要加@override
+- 当class被当做interface用时，class中的成员变量也需要在子类里重新实现。在成员变量前加@override

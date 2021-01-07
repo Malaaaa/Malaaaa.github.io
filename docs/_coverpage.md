@@ -1,4 +1,4 @@
-# ![logo](\_media/pig.ico "https://iconscout.com/icon/pig-1721910")
+# ![logo](_media/pig.ico "https://iconscout.com/icon/pig-1721910")
 
 ## Malaaa's Blog
 
