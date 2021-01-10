@@ -4,12 +4,10 @@
   - [首页](Start.md)
   - [路由管理](Route.md)
   - [包管理](Packagemd)
+  - [资源管理](ResourceM.md)
 - [善用搜索](search.md)
 - [爱读书](httpwww.md)
-- 
-- 
 - [隔鞋搔痒](soup.md)
-
 - [无病呻吟](pompous.md)
 - [Draft](note.md)
 
