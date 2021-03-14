@@ -22,3 +22,5 @@
   非暴力沟通
     + Four elements of nonviolent communication: 1. Observation (facts); 2. Feelings (emotions); 3. Needs (solutions); 4. Requests (sincere).
     + 非暴力沟通的四个要素：1、观察（事实）；2、感受（情绪）；3、需要（解决方法）；4、请求（真诚）。
++ 无界：人工智能时代的认知升级
+    + 一本不错的汇总书，把现在市面上比较主流的思想穿了个遍，说人工时代的认知升级未免有些夸大。但是大多理论都是最主流的认知，是一本可以拓宽知识面的书单。
