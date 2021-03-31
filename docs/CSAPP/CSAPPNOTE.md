@@ -30,9 +30,3 @@ Original and optimized code to compute the element i, k of matrix product for fi
 + Casting from one type of pointer to another changes its type but not its value.
 + Pointers can also point to functions.
 
-####Translates the example program from an ASCII source file into an executable object file.
-1. cpp [other arguments] main.c /tmp/main.i
-2. cc1 /tmp/main.i -Og [other arguments] -o /tmp/main.s
-3. as [other arguments] -o /tmp/main.o /tmp/main.s
-4. ld -o prog [system object files and args] /tmp/main.o /tmp/sum.o
-5. linux> ./prog
